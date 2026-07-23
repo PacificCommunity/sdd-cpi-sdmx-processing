@@ -1,0 +1,20 @@
+Package: cpiShiny
+Type: Package
+Title: CPI Data Processing Shiny Application
+Version: 0.1.0
+Authors@R: person("Rara", "Soro", email = "raras@spc.int", role = c("aut", "cre"))
+Description: A Shiny application for processing Consumer Price Index data and calculating monthly, quarterly, and annual inflation rates. The application calculates monthly inflation, quarterly average CPI, quarterly inflation, annual average CPI, and annual inflation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    shiny,
+    dplyr,
+    tidyr,
+    lubridate,
+    readr,
+    readxl,
+    DT
+Suggests:
+    remotes
+RoxygenNote: 7.3.2
