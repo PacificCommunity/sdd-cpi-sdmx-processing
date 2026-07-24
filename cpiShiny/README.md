@@ -1,8 +1,4 @@
-\# cpiShiny
-
-
-
-\## CPI Data Processing Shiny Application
+# CPI Data wrangling and SDMX Converter
 
 
 
@@ -46,7 +42,7 @@ install.packages("remotes")
 
 
 
-remotes::install\_github(
+remotes::install_github(
 
 &#x20; "YOUR\_GITHUB\_USERNAME/cpiShiny"
 
