@@ -39,12 +39,7 @@ Install the package directly from GitHub.
 ```r
 
 install.packages("remotes")
-
-
-
-remotes::install_github(
-
-&#x20; "YOUR\_GITHUB\_USERNAME/cpiShiny"
-
-)
+remotes::install_github("https://github.com/PacificCommunity/sdd-cpi-sdmx-processing", subdir = "cpiShiny")
+library(cpiShiny)
+cpiShiny::run_cpi_app()
 
