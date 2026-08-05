@@ -530,7 +530,8 @@ server <- function(input, output, session) {
         annual_inflation_out <- calc_inflation(
           annual_cpi_out,
           "Annual average inflation calculated from quarterly average indexes sourced from "
-        )
+        ) |>
+          filter(COMMODITY == "_T")
         
         
         # ----------------------------------------------------
@@ -560,11 +561,11 @@ server <- function(input, output, session) {
               OBS_COMMENT
             ),
           
-          monthly_inflation,
+          #monthly_inflation,
           
           quarterly_cpi,
           
-          quarterly_inflation,
+          #quarterly_inflation,
           
           annual_cpi_out,
           
