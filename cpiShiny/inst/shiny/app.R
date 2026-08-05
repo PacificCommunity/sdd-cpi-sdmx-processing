@@ -621,12 +621,12 @@ server <- function(input, output, session) {
               )
           ) |>
           select(
-            -c(
-              "Date",
-              "Year",
-              "Quarter",
-              "office"
-            ),
+            #-c(
+            #  "Date",
+            #  "Year",
+            #  "Quarter",
+            #  "office"
+            #),
             
             DATAFLOW,
             FREQ,
