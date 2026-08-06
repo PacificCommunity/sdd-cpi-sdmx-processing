@@ -4,11 +4,7 @@
 
 `cpiShiny` is an R package containing a Shiny application for processing Consumer Price Index (CPI) data.
 
-
-
 The application calculates:
-
-
 
 \- Monthly CPI indexes
 
@@ -23,18 +19,13 @@ The application calculates:
 \- Annual inflation
 
 
-
 The application also adds the relevant statistics office to the observation comment and generates a final SDMX-compatible CPI dataset.
 
 
 
-\## Installation
-
-
+## Installation
 
 Install the package directly from GitHub.
-
-
 
 ```r
 
