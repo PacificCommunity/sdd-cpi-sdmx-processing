@@ -11,5 +11,5 @@ run_cpi_app <- function() {
   if (app_dir == ""){
     stop("App directory not found")
   }
-  shiny::runApp(appDir, launch.browser = TRUE)
+  shiny::runApp(app_Dir, launch.browser = TRUE)
 }
