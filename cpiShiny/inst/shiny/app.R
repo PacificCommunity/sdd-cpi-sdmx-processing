@@ -531,7 +531,7 @@ server <- function(input, output, session) {
           annual_cpi_out,
           "Annual average inflation calculated from quarterly average indexes sourced from "
         ) |>
-        filter(COMMODITY == "_T")
+          filter(COMMODITY == "_T")
         
         
         # ----------------------------------------------------
@@ -621,12 +621,12 @@ server <- function(input, output, session) {
               )
           ) |>
           select(
-            #-c(
-            #  "Date",
-            #  "Year",
-            #  "Quarter",
-            #  "office"
-            #),
+          #  -c(
+          #    "Date",
+          #    "Year",
+          #    "Quarter",
+          #    "office"
+          #  ),
             
             DATAFLOW,
             FREQ,

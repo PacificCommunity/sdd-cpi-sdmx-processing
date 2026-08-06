@@ -189,7 +189,8 @@ annual_cpi_out <- annual_cpi |>
 annual_inflation_out <- calc_inflation(
   annual_cpi_out,
   "Annual average inflation calculated from quarterly average indexes sourced from "
-)
+) |>
+  filter(COMMODITY == "_T")
 
 #-----------------------------------------------------------
 # Combine all generated dataframes together
@@ -199,15 +200,16 @@ combined <- bind_rows(
   cpi |>
     select(DATAFLOW,FREQ,GEO_PICT,INDICATOR,COMMODITY,TIME_PERIOD,OBS_VALUE,UNIT_MEASURE,UNIT_MULT,OBS_STATUS,BASE_PER,OBS_COMMENT
     ),
-  monthly_inflation,
+  #monthly_inflation,
   quarterly_cpi,
-  quarterly_inflation,
+  #quarterly_inflation,
   annual_cpi_out,
   annual_inflation_out
 )
 
 # Merge combined with office dataframe to get office names
 combined <- merge(combined, stats_office, by = "GEO_PICT")
+  
 
 combined<- combined |>
   filter(!is.na(OBS_VALUE)) |>

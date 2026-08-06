@@ -1,5 +1,7 @@
 # CPI Data wrangling and SDMX Converter
 
+
+
 `cpiShiny` is an R package containing a Shiny application for processing Consumer Price Index (CPI) data.
 
 The application calculates:
@@ -31,6 +33,4 @@ install.packages("remotes")
 remotes::install_github("https://github.com/PacificCommunity/sdd-cpi-sdmx-processing", subdir = "cpiShiny")
 library(cpiShiny)
 cpiShiny::run_cpi_app()
-
-)
 
