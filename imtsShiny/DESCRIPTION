@@ -1,0 +1,16 @@
+Package: IMTS2SDMX
+Title: What the Package Does (One Line, Title Case)
+Version: 1.0
+Authors@R: 
+    person("Rara", "Soro", , "tuvuisoro@gmail.com", role = c("aut", "cre"))
+Description: The is created mainly to assist the Pacific Island countries on a faster and more reliable way to transform their International Merchandise Trade Statistics from basic published excel tables to SDMX format.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr,
+    readxl,
+    shiny,
+    shinymanager
