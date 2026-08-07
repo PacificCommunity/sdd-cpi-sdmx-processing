@@ -1,0 +1,87 @@
+Id,Name,UNIT_MEASURE
+ALUMINUM,Aluminum,USDMT
+BANANA_EU,"Banana, Europe",USDKG
+BANANA_US,"Banana, US",USDKG
+BARLEY,Barley,USDMT
+BEEF,Beef,USDKG
+CHICKEN,"Meat, chicken",USDKG
+COAL_AUS,"Coal, Australian",USDMT
+COAL_COL,"Coal, Colombian",USDMT
+COAL_SAFRICA,"Coal, South Afican",USDMT
+COCOA,Cocoa,USDKG
+COCONUT_OIL,Coconut oil,USDMT
+COFFEE_ARABIC,"Coffee, Arabica",USDKG
+COFFEE_ROBUS,"Coffee, Robusta",USDKG
+COPPER,Copper,USDMT
+COPRA,Copra,USDMT
+COTTON_A_INDX,"Cotton, A Index",USDKG
+COTTON_MEMPH,"Cotton, Memphis",USDKG
+CRUDE_BRENT,"Crude oil, Brent",USDBBL
+CRUDE_DUBAI,"Crude oil, Dubai",USDBBL
+CRUDE_PETRO,"Crude oil, average",USDBBL
+CRUDE_WTI,"Crude oil, WTI",USDBBL
+DAP,DAP,USDMT
+FISH_MEAL,Fish meal,USDMT
+GOLD,Gold,USDTROYOZ
+GRNUT,Groundnuts,USDMT
+GRNUT_OIL,Groundnut oil,USDMT
+iNATGAS,Natural gas index,BASE2010
+IRON_ORE,"Iron ore, cfr spot",USDDMTU
+iSTL_JP_INDX,Steel Index,
+LAMB,"Meat, sheep",USDKG
+LEAD,Lead,USDMT
+LOGS_CMR,"Logs, Cameroon",USDCM
+LOGS_MYS,"Logs, Malaysian",USDCM
+MAIZE,Maize,USDMT
+NGAS_EUR,"Natural gas, Europe",USDMMBTU
+NGAS_JP,"Liquefied natural gas, Japan",USDMMBTU
+NGAS_US,"Natural gas, US",USDMMBTU
+NICKEL,Nickel,USDMT
+ORANGE,Orange,USDKG
+PALM_OIL,Palm oil,USDMT
+PHOSROCK,Phosphate rock,USDMT
+PLATINUM,Platinum,USDTROYOZ
+PLMKRNL_OIL,Palm kernel oil,USDMT
+PLYWOOD,Plywood,USHSHEET
+POTASH,Potassium chloride,USDMT
+RICE_05,"Rice, Thai 5%",USDMT
+RICE_05_VNM,"Rice, Vietnamese 5%",USDMT
+RICE_25,"Rice, Thai 25%",USDMT
+RICE_A1,"Rice, Thai A.1",USDMT
+RUBBER_TSR20,"Rubber, TSR20",USDKG
+RUBBER1_MYSG,"Rubber, SGP/MYS",USDKG
+RUBBER1_US,"Rubber, US",USDKG
+SAWNWD_CMR,"Sawnwood, Cameroon",USDCM
+SAWNWD_MYS,"Sawnwood, Malaysian",USDCM
+SHRIMP_MEX,"Shrimps, Mexican",USDKG
+SILVER,Silver,USDTROYOZ
+SORGHUM,Sorghum,USDMT
+SOYBEAN_MEAL,Soybean meal,USDMT
+SOYBEAN_OIL,Soybean oil,USDMT
+SOYBEANS,Soybeans,USDMT
+STL_JP_CROLL,"Steel, cold rolled coilsheet",
+STL_JP_HROLL,"Steel, hot rolled coilsheet",
+STL_JP_REBAR,Steel rebar,
+STL_JP_WIROD,Steel wire rod,
+SUGAR_EU,"Sugar, EU",USDKG
+SUGAR_US,"Sugar, US",USDKG
+SUGAR_WLD,"Sugar, world",USDKG
+TEA_AVG,"Tea, avg 3 auctions",USDKG
+TEA_COLOMBO,"Tea, Colombo",USDKG
+TEA_KOLKATA,"Tea, Kolkata",USDKG
+TEA_MOMBASA,"Tea, Mombasa",USDKG
+Tin,Tin,USDMT
+TOBAC_US,"Tobacco, US import u.v.",USDMT
+TSP,TSP,USDMT
+TUNA_SJCSI,"Tuna- Skipjack (loins cooked, from Solomon Islands)",
+TUNA_SJFEP,"Tuna-Yellow fin (loins frozen, from Eastern Pacific)",
+TUNA_SJWPO,"Tuna-Skipjack (whole, from Pacific Ocean)",
+TUNA_YFCSI,"Tuna-Yellow fin (loins cooked, from Solomon Islands)",
+TUNA_YFFEP,"Tuna-Skipjack (loins frozen, from Eastern Pacific)",
+TUNA_YFWPO,"Tuna-Yellow fin (whole, from Pacific Ocean)",
+UREA_EE_BULK,Urea,USDMT
+WHEAT_CANADI,"Wheat, Canadian",USDMT
+WHEAT_US_HRW,"Wheat, US HRW",USDMT
+WHEAT_US_SRW,"Wheat, US SRW",USDMT
+WOODPULP,Woodpulp,
+Zinc,Zinc,USDMT
