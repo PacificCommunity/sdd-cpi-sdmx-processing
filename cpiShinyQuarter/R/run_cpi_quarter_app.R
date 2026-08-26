@@ -7,7 +7,7 @@
 
 run_cpi_quarter_app <- function() {
   
-  app_dir <- system.file("shiny", package = "cpiShiny_quarter")
+  app_dir <- system.file("shiny", package = "cpiShinyQuarter")
   if (app_dir == ""){
     stop("App directory not found")
   }

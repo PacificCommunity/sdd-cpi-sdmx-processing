@@ -1,4 +1,4 @@
-Package: cpiShiny_quarter
+Package: cpiShinyQuarter
 Type: Package
 Title: Quarterly CPI Data Processing Shiny Application
 Version: 0.1.0
